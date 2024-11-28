@@ -18,7 +18,7 @@ Vendor-Ranking-Analysis/
 │   ├── Vendor List.xlsx    # Vendor details
 │
 ├── PowerBI/
-│   └── Vendor Ranking.pbix # Power BI project file
+│   └── Vendor Ranking Analysis.pbix # Power BI project file
 │
 ├── documentation/
 │   ├── data_dictionary.md  # Detailed explanation of fields
