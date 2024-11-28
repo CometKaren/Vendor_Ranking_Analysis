@@ -14,7 +14,8 @@ This project demonstrates the use of Power BI to analyze vendor performance base
 Vendor-Ranking-Analysis/
 │
 ├── data/
-│   ├── Purchase List.xlsx  # Simulated purchase data
+│   ├── Purchase List 1.xlsx  # Simulated purchase data (file was split due to github restrictions)
+│   ├── Purchase List 2.xlsx  # Simulated purchase data
 │   ├── Vendor List.xlsx    # Vendor details
 │
 ├── PowerBI/
@@ -38,7 +39,8 @@ Vendor-Ranking-Analysis/
    git clone https://github.com/cometkaren/Vendor-Ranking-Analysis.git
    ```
 2. Open the `Vendor Ranking.pbix` file in Power BI Desktop.
-3. Review the data sources (`Purchase List.xlsx` and `Vendor List.xlsx`) in the **Data** folder.
+3. Combine `Purchase List 1.xlsx` and `Purchase List 2.xlsx` into a single file (`Purchase List.xlsx`)
+4. Review the data sources (`Purchase List.xlsx` and `Vendor List.xlsx`) in the **Data** folder.
 
 ## 📁 **Data**
 - **Purchase List**: Contains details of purchase orders, including quantities, dates, and vendor IDs.
