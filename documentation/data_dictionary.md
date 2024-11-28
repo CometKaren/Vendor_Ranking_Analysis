@@ -9,7 +9,7 @@ The data dictionary includes details for the `Purchase List` and `Vendor List` t
 ## Table Relationships
 - `Purchase List` is linked to `Vendor List` by the `VendorID` column (one-to-many relationship).
 - Each vendor in the `Vendor Table` can have multiple purchase orders in the `Purchase List`.
-![image](https://github.com/user-attachments/assets/9e14cd7f-5f22-4f2a-bafe-97eb80f9006b)
+![Table Relationships](./visuals/vendor%20ranking%20relationships.png)
 
 ## Data Sources
 - `Purchase List`: Simulated data from Kaggle datasets, representing purchase orders and related details.
