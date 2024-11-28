@@ -8,7 +8,7 @@ The data dictionary includes details for the `Purchase List` and `Vendor List` t
 
 ## Table Relationships
 - `Purchase List` is linked to `Vendor List` by the `VendorID` column (one-to-many relationship).
-- Each vendor in the `Vendor Table` can have multiple purchase orders in the `Purchase List`.
+- Each vendor in the `Vendor Table` can have multiple purchase orders in the `Purchase List`.  
 ![Table Relationships](./visuals/vendor%20ranking%20relationships.png)
 
 ## Data Sources
