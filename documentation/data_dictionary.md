@@ -4,33 +4,17 @@
 This data dictionary provides detailed descriptions of the fields used in the Power BI project. It serves as a reference for understanding the structure, calculations, and relationships of the data model.
 
 ## Scope
-The data dictionary includes details for the `Purchase List` and `Vendor Table` tables, including raw data columns and calculated fields.
+The data dictionary includes details for the `Purchase List` and `Vendor List` tables, including raw data columns and calculated fields.
 
 ## Table Relationships
 - `Purchase List` is linked to `Vendor List` by the `VendorID` column (one-to-many relationship).
 - Each vendor in the `Vendor Table` can have multiple purchase orders in the `Purchase List`.
 ![image](https://github.com/user-attachments/assets/9e14cd7f-5f22-4f2a-bafe-97eb80f9006b)
 
-
-## Business Rules
-- A vendor's rank is calculated based on the total quantity ordered, average receiving days, and the number of purchase orders.
-- Vendors with lower total ranks are considered better performers.
-- Weightings for rankings are as follows: Quantity (20%), Receiving Days (50%), and Number of POs (30%).
-
 ## Data Sources
 - `Purchase List`: Simulated data from Kaggle datasets, representing purchase orders and related details.
   - https://www.kaggle.com/code/abdulmelikhmeda/inventory-purchase-sales-analysis-and-optimization/input?select=PurchasesFINAL12312016.csv
 - `Vendor Table`: Derived from the `Purchase List` data by aggregating vendor-specific metrics.
-
-## Assumptions
-- All dates are formatted in `YYYY-MM-DD`.
-- Each `PO Number` is unique to a single purchase order.
-- Vendors are assumed to have valid `VendorID` entries in both `Purchase List` and `Vendor Table`.
-
-## Limitations
-- The dataset does not account for partial deliveries or backorders.
-- Simulated data may not fully represent real-world scenarios.
-- Rankings may not reflect business-critical factors outside of the provided data.
 
 ## Glossary
 - **PO**: Purchase Order.
