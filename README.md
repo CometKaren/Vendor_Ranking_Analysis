@@ -1,3 +1,4 @@
+<a name="Link"></a>  
 # Vendor Ranking and Analysis with Power BI
 ![Vendor Ranking Analysis](./visuals/Vendor%20Ranking%20Summary.png)
 ![Looking at a low ranked vendor](./visuals/One%20Vendor%20(Red).png)
