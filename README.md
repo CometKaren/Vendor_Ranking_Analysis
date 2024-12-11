@@ -5,7 +5,7 @@
 ![Looking at a high ranked vendor](./visuals/One%20Vendor%20(Green).png)
 
 ## 📄 **Overview**
-This project demonstrates the use of Power BI to analyze vendor performance based on purchase data. The analysis incorporates measures such as total quantities ordered, average receiving times, and the number of purchase orders to rank vendors effectively. The project is designed to showcase advanced data modeling, calculated fields, and interactive visualizations.
+This iis a sample project to demonstrate the use of Power BI to analyze vendor performance based on purchase data. The analysis incorporates measures such as total quantities ordered, average receiving times, and the number of purchase orders to rank vendors effectively. The project is designed to showcase advanced data modeling, calculated fields, and interactive visualizations.
 
 ## 📊 **Key Features**
 - **Interactive Dashboards**: Visualize vendor performance and rankings with dynamic charts and tables.
