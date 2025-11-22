@@ -1,8 +1,5 @@
 <a name="Link"></a>  
 # Vendor Ranking and Analysis with Power BI
-![Vendor Ranking Analysis](./visuals/Vendor%20Ranking%20Summary.png)
-![Looking at a low ranked vendor](./visuals/One%20Vendor%20(Red).png)
-![Looking at a high ranked vendor](./visuals/One%20Vendor%20(Green).png)
 
 ## 📄 **Overview**
 This is a sample project to demonstrate the use of Power BI to analyze vendor performance based on purchase data. The analysis incorporates measures such as total quantities ordered, average receiving times, and the number of purchase orders to rank vendors effectively. The project is designed to showcase advanced data modeling, calculated fields, and interactive visualizations.
@@ -62,8 +59,14 @@ For a detailed explanation, refer to the [Data Dictionary](./documentation/data_
 ## 🖼️ **Visualizations**
 ### Example Visuals:
 - **Bar Chart**: Compares final rankings across vendors.
+
+![Vendor Ranking Analysis](./visuals/Vendor%20Ranking%20Summary.png)
+
 - **Cards**: Quickly view the indvidual rankings; colour coded to show good (green), neutral (yellow), bad (red)
 - **Filterable**: click on any bar or vendor name within the chart to filter all visuals
+
+![Looking at a low ranked vendor](./visuals/One%20Vendor%20(Red).png)
+![Looking at a high ranked vendor](./visuals/One%20Vendor%20(Green).png)
 
 ## ⚙️ **Features Demonstrated**
 - **Data Modeling**: Linking tables with one-to-many relationships.
